@@ -20,8 +20,7 @@ Python 3.10+ (developed on 3.13). Install dependencies:
 pip install pandas numpy tqdm requests scipy matplotlib scikit-learn nltk sqlparse
 ```
 
-Qwen2.5-7B-Instruct is accessed through the OpenRouter API, so no local model or GPU is needed
-(`mlx-lm` is not required for this assignment).
+Qwen2.5-7B-Instruct is accessed through the OpenRouter API, so no local model or GPU is needed.
 
 After installing `nltk`, download its tokenizer data once (needed by the official evaluation script):
 ```python
