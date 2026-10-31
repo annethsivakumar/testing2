@@ -67,8 +67,7 @@ Assignment 1 `results/` folder is not available, copy that file to `results/eval
 Only one provider is used:
 
 - **OpenRouter** (Qwen2.5-7B-Instruct, used for System A, System B, and every ablation variant):
-  create a regular API key at https://openrouter.ai/settings/keys. A management key does not work
-  for model calls (it returns HTTP 401).
+  create a regular API key at https://openrouter.ai/settings/keys.
 
 Each notebook's "Inference Loop" cell (Section 4) currently contains:
 ```python
@@ -122,11 +121,6 @@ proceeding.
 Every run is logged to `./results_a2/` and is resumable: if a `*.jsonl` log already exists
 (for example from `Asg2_Task1.ipynb`), `run_system` reuses it without calling the model again.
 Delete the log files in `results_a2/` to recompute a system from scratch.
-
-The development set is sampled from the Spider training split when the training databases are
-available in `DB_DIR`; otherwise it is automatically sampled from development-split examples that
-are not in the evaluation set (the setup cell prints which source was used). Its IDs, source, and
-seed are saved to `results_a2/dev_set_ids.json`.
 
 ## Outputs
 
