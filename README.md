@@ -11,8 +11,6 @@ before adding its own task-specific analysis, so each can be run independently, 
   (one variant per component), trajectory feature extraction, descriptive statistics, statistical
   tests, a figure, and the trajectory walkthroughs (Sections 14-21).
 
-Task 3 (AI usage declaration) is part of the written report and has no code.
-
 ## Requirements
 
 ### Python environment
